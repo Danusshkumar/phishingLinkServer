@@ -24,9 +24,13 @@ SECRET_KEY = 'django-insecure--wo+t1dba1$%nm%p996*=8m_9c^_xv&h-*9#l@fkszh30oe59=
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+#DEBUG = True
 
 ALLOWED_HOSTS = [
-    "phishinglinkserver.onrender.com"
+    "phishinglinkserver.onrender.com",
+    "https://phishinglinkserver.onrender.com",
+    "localhost:8000",
+    "localhost"
 ]
 
 
