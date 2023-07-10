@@ -1,5 +1,5 @@
 asgiref==3.6.0
-contourpy==1.0.7
+contourpy==1.1.0
 cycler==0.11.0
 Django==4.2.1
 django-admin==2.0.2
