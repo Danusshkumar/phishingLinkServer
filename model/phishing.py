@@ -20,7 +20,8 @@ from torch.utils.data import DataLoader
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)        
-df_data = pd.read_csv("D:\My Files\My Academics\My Projects\Django projects\phishingLinkServer\model\dataset_phishing.csv")
+#df_data = pd.read_csv("D:\My Files\My Academics\My Projects\Django projects\phishingLinkServer\model\dataset_phishing.csv")
+df_data = pd.read_csv("./model/dataset_phishing.csv")
 df_data.shape
 df_data.head(5)    
 df_data['target'] = pd.get_dummies(df_data['status'])['legitimate'].astype('int')
