@@ -33,7 +33,7 @@ sqlparse==0.4.4
 sympy==1.10.1
 threadpoolctl==3.1.0
 TimeConvert==3.0.13
-torch==2.0.1
+torch==1.13.1
 typing_extensions==4.5.0
 tzdata==2023.3
 tzlocal==4.3
